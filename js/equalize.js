@@ -40,6 +40,7 @@
         function alignElements ($elements) {
             var max = 0;
 
+            $elements.css(type, 'auto');
             $elements.each(function() {
                 var $element = $(this),
                     value;
@@ -48,7 +49,6 @@
                 if (value > max) { max = value; }      // update max
             });
 
-            $elements.css(type, 'auto');
             $elements.css(type, max +'px'); // add CSS to children
         }
 
