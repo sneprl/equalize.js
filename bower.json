@@ -1,8 +1,7 @@
 {
   "name": "equalize",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "jQuery plugin for equalizing the height or width of your elements",
-  "homepage": "http://tsvensen.github.io/equalize.js/",
   "keywords": [
     "ui",
     "equalize",
@@ -11,10 +10,6 @@
     "width",
     "layout"
   ],
-  "author": {
-    "name": "Tim Svensen",
-    "url": "http://timsvensen.com"
-  },
   "licenses": [{
     "type": "MIT",
     "url": "http://opensource.org/licenses/MIT"

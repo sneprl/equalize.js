@@ -18,12 +18,17 @@ Equalize will now accept a settings object to get the "minimum max dimension". B
 
 <pre>$('.parent').equalize({reset: true}); // default to height
 $('.parent').equalize({equalize: 'width', reset: true});</pre>
+$('.parent').equalize({checkPageResize: true}); // equalize on resize
 
 This advanced usage is for dynamic instances where equalize is ran after elements are added or removed to maintain minimum max height or width.
 
 Equalize the .parent's child element. See @larsbo's <a href="http://jsfiddle.net/4QTNP/3/">example</a>.
 <pre>$('.parent').equalize({children: 'p'}); // equalize height of paragraphs within .parent</pre>
 
+## Multi-element
+Equalize specific elements, it allows each option parameters.
+
+$('.elements').equalize();
 
 ## Examples
 
